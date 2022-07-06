@@ -19,8 +19,18 @@ function App() {
   gsap.defaults({ease:'none', duration:0.5})
   const tl = useRef();
 
+window.onscroll=function(){
+  if (window.screenY + document.querySelector('.App').getBoundingClientRect().top === 0) {
+    window.location.reload()
+  }
+}
+
+window.onbeforeunload=function(){
+  window.scrollTo(0,0)
+}
 
   useEffect(()=>{
+    
   tl.current = gsap.timeline({ scrollTrigger: {
     trigger: q('.one'),
     toggleActions: 'restart reset reset reset',
@@ -62,7 +72,6 @@ function App() {
         .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
         .fromTo(q('.img3'), {y:700}, {y: 230},0)
         .fromTo(q('.img4'),  {y:-700},{y: -100},0)
-
 
         tl.current = gsap.timeline({scrollTrigger: {
           trigger: q('.three'),
