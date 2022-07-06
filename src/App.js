@@ -19,11 +19,15 @@ function App() {
   gsap.defaults({ease:'none', duration:0.5})
   const tl = useRef();
 
-window.onscroll=function(){
-  if (window.screenY + document.querySelector('.App').getBoundingClientRect().top === 0) {
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function(){ 
+   var st = window.pageYOffset || document.documentElement.scrollTop;
+   if (st < lastScrollTop && window.screenY + document.querySelector('.App').getBoundingClientRect().top > -662) {
     window.location.reload()
-  }
-}
+   } 
+   lastScrollTop = st <= 0 ? 0 : st; 
+}, false);
 
 window.onbeforeunload=function(){
   window.scrollTo(0,0)
