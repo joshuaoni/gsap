@@ -1,38 +1,272 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background: yellow;
+  width: 100%;
+  color: white;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.left {
+  width: 32.85%;
+  height: 90vh;
+  padding: 5vh 5%;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  width: 57.14%;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.one .left {
+  background: #6211a7;
+}
+
+.one .right {
+  background: #cdcbce;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.logo {
+  height: 54px;
+  width: 180px;
+}
+
+.one .img1, .one .img2 {
+  height: 500px;
+  width: 240px;
+  -webkit-filter: drop-shadow(-8px 8px 15px #00000066);
+  filter: drop-shadow(-8px 8px 15px rgba(0, 0, 0, 0.6));
+}
+
+.one {
+  background: red;
+  height: 100vh;
+}
+
+.img3,.img4 {
+  height: 450px;
+  width: 262.8px;
+}
+
+.align-end {
+  justify-content: flex-end;
+}
+
+.img4, .img5 {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.svg {
+  height: 50%;
+}
+
+.svg+div {
+  height: 50%;
+}
+
+.one {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.foot {
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mid {
+  width: 70%;
 }
+
+.two {
+  height: 100vh;
+  background-color: purple;
+}
+
+.two .left {
+  background: #4b25ce;
+}
+
+.two .right {
+  background: #1d0263;
+}
+
+.three {
+  height: 100vh;
+  background: green;
+}
+
+.three .left {
+  background: #14243b;
+}
+
+.three .right {
+  background: #0d131a;
+}
+
+.img6 {
+  height: 470px;
+  width: 268px;
+}
+
+.img5 {
+  height: 450px;
+  width: 221px;
+}
+
+
+.four  {
+  height: 100vh;
+  background: white;
+}
+
+.four .left {
+  background: #0e113b;
+}
+
+.four .right {
+  background: #151549;
+}
+
+
+.img7 {
+  height: 125px;
+  width: 240px;
+}
+
+.img8 {
+  height: 144px;
+  width: 200px;
+}
+
+.img9 {
+  height: 170px;
+  width: 113px;
+}
+
+.img10 {
+  height: 348px;
+  width: 187px;
+  padding-left: 100px;
+}
+
+.img11 {
+  height: 300px;
+  width: 198px;
+}
+
+  .five {
+    height: 100vh;
+    background: brown;
+  }
+
+  .five .left {
+    background: #1249a1;
+  }
+
+  .five .right {
+    background: #3cbcc5;
+  }
+
+  .img12, .img13, .img14, .img15, .img16 {
+    height: 350px;
+    width: 187px;
+  }
+
+
+
+  .six {
+    height: 100vh;
+  }
+
+  .six .left {
+    background: #01298f;
+  }
+
+  .six .right {
+    background: #f4d8be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  .tab {
+    height: 622px;
+    width: 100%;
+  }
+
+  
+
+  .seven {
+    height: 100vh;
+  }
+
+  .seven .left {
+    background-color: #00824d;
+  }
+
+  .seven .right {
+    background-color: #00b668;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .img19 {
+    height: 400px;
+    width: 200px;
+  }
+
+  .img20 {
+    height: 375px;
+    width: 250px;
+    margin-right: 1rem;
+  }
+
+.circle {
+    position: absolute;
+    z-index: 2;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    top: 10vh;
+    left: 35%;
+  }
+
+  .two .circle {
+    
+    background: #4b25ce;
+  }
+
+  .one .circle {
+    background: #6211a7;
+  }
+
+  .three .circle {
+    background: #14243b;
+  }
+
+  .four .circle {
+    background-color: #0e113b;;
+  }
+
+  .five .circle {
+    background-color: #1249a1;
+  }
+
+  .six .circle {
+    background-color: #01298f;
+  }
+
+  .seven .circle {
+    background-color: #00824d;
+  }
