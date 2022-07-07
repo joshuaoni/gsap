@@ -10,11 +10,14 @@ const Five = () => {
     return (
         <div className='flex five'>
             <div className='left'>
-                <div className='svg'></div>
+                <div className='svg'>
+            <div className='circle'></div>
+
+                </div>
                 <div>
                     <div className='mid'>
                         <h1>ABC 567</h1>
-                        <p className='best'>We are the best web development company in the world</p>
+                        <p className='best'>We are the best AR development company in the world</p>
                     </div>
                     <div className='flex foot'>
                         <p className='best'>View Case Study</p>
@@ -22,7 +25,11 @@ const Five = () => {
                     </div>
                 </div>
             </div>
-            <div className='circle'></div>
+            <div className='abso'>
+                <span>Text Headline</span>
+                <h1>Text Headline</h1>
+                <p>Footer Headline</p>
+            </div>
             <div className='right flex'>
                 <div style={{paddingLeft:'1rem',width:'70%'}}>
                     <div className='flex' style={{height:'45%'}}>

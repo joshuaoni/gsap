@@ -5,11 +5,13 @@ import logo from '../assets/world-communication-awards-for-best-digital-experien
 
 const One = () => {
  
-
+    
     return (
         <div  className='flex one'>
             <div className='left'>
-                <div className='svg'></div>
+                <div className='svg'>
+            <div className='circle'></div>
+                </div>
                 <div>
                     <div>
                         <img className='logo' alt='' src={logo} />
@@ -24,7 +26,10 @@ const One = () => {
                     </div>
                 </div>
             </div>
-            <div className='circle'></div>
+            <div className='abso'>
+                <h1>25M+ Downloads</h1>
+                <p>on appstore & google playstore</p>
+            </div>
             <div className='right'>
                 <img className='img1' alt='' src={img1} />
                 <img className='img2' alt='' src={img2} />

@@ -11,7 +11,7 @@ const F = () => {
             <div className='down'>
             <h1>ABC 6</h1>
                 <p>This is sample text for ABC 6</p>
-                <div style={{display:'flex',alignItems:'center',paddingBottom:'2rem'}}>
+                <div style={{display:'flex',alignItems:'center',paddingBottom:'9rem'}}>
                     <h4>View Case Study</h4>
                 </div>
             </div>

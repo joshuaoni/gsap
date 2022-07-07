@@ -4,11 +4,14 @@ import img4 from '../assets/22.png'
 
 const Two = () => {
  
-
+    
     return (
         <div className='flex two'>
             <div className='left'>
-                <div className='svg'></div>
+                <div className='svg'>
+
+            <div className='circle'></div>
+                </div>
                 <div>
                     <div className='mid'>
                         <h1>ABC 234</h1>
@@ -20,7 +23,11 @@ const Two = () => {
                     </div>
                 </div>
             </div>
-            <div className='circle'></div>
+            <div className='abso'>
+                <span>The Next Big</span>
+                <h1>Blockchain</h1>
+                <p>Revolution</p>
+            </div>
             <div className='flex align-end right'>
                 <img className='img3' alt='' src={img3}/>
                 <img className='img4' alt='' src={img4}/>

@@ -104,10 +104,18 @@
 }
 
 .three .left {
-  background: #14243b;
+  background: #0e113b;
 }
 
 .three .right {
+  background: #151549;
+}
+
+.four .left {
+  background: #14243b;
+}
+
+.four .right {
   background: #0d131a;
 }
 
@@ -125,14 +133,6 @@
 .four  {
   height: 100vh;
   background: white;
-}
-
-.four .left {
-  background: #0e113b;
-}
-
-.four .right {
-  background: #151549;
 }
 
 
@@ -251,11 +251,11 @@
   }
 
   .three .circle {
-    background: #14243b;
-  }
-
-  .four .circle {
     background-color: #0e113b;;
+  }
+  
+  .four .circle {
+    background: #14243b;
   }
 
   .five .circle {
@@ -286,7 +286,7 @@
   }
 
   .top,.down {
-    height: 330px;
+    height: 370px;
   }
 
   .down {
@@ -343,6 +343,7 @@
     border-radius: 18px;
     border-width: 0;
     margin-left: 10px;
+    cursor: pointer;
   }
 
   h4{
@@ -501,6 +502,7 @@
   left: 0;
   top: 50px; */
   margin-top: 50px;
+  margin-left: 35px;
 }
 
 .g2 {
@@ -524,4 +526,45 @@
   .slide {
     display: block;
   }
+}
+
+.abso h1 {
+  margin: 0;
+  font-size: 300%;
+}
+
+.abso p {
+  margin: 0;
+  margin-left: 7rem;
+}
+
+.one .abso {
+  position: absolute;
+  top: 21vh;
+    left: 16%;
+    z-index: 4;
+}
+
+.seven .abso {
+  position: absolute;
+  top: 21vh;
+    left: 29%;
+    z-index: 4;
+}
+
+.abso {
+  position: absolute;
+  top: 21vh;
+    left: 25%;
+    z-index: 4;
+    opacity: 0;
+}
+
+.owly {
+  display: flex;
+  justify-content: center;
+}
+
+.nasa {
+  width: 15rem;
 }

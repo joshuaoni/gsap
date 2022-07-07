@@ -9,7 +9,10 @@ const Four = () => {
     return (
         <div className='flex four'>
             <div className='left'>
-                <div className='svg'></div>
+                <div className='svg'>
+
+            <div className='circle'></div>
+                </div>
                 <div>
                     <div className='mid'>
                         <h1>ABC 456</h1>
@@ -21,7 +24,11 @@ const Four = () => {
                     </div>
                 </div>
             </div>
-            <div className='circle'></div>
+            <div className='abso'>
+                <span>Redefining</span>
+                <h1> UX Strategy</h1>
+                <p>and UX Dedign</p>
+            </div>
             <div className='right'>
                 <div style={{height:'60%'}} className='flex'>
                     <img className='img7' alt='' src={img7}/>

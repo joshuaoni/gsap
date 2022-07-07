@@ -13,7 +13,7 @@ const C = () => {
             <div className='down'>
             <h1>ABC 3</h1>
                 <p>This is sample text for ABC 3</p>
-                <div style={{display:'flex',alignItems:'center',paddingBottom:'2rem'}}>
+                <div style={{display:'flex',alignItems:'center',paddingBottom:'9rem'}}>
                     <h4>CASE STUDY -</h4>
                     <button style={{background:'white',color:'black'}}>Coming Soon</button>
                 </div>

@@ -18,7 +18,7 @@ const E = () => {
             <div className='down'>
             <h1>ABC 5</h1>
                 <p>This is sample text for ABC 5</p>
-                <div style={{display:'flex',alignItems:'center',paddingBottom:'2rem'}}>
+                <div style={{display:'flex',alignItems:'center',paddingBottom:'9rem'}}>
                     <h4>View Case Study</h4>
                     
                 </div>
