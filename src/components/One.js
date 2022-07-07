@@ -16,12 +16,12 @@ const One = () => {
                         <img className='logo' alt='' src={logo} />
                     </div>
                     <div className='mid'>
-                        <h1>ABC 123</h1>
+                        <h1 className='abc'>ABC 123</h1>
                         <p className='best'>We are the best web development company in the world</p>
                     </div>
                     <div className='flex foot'>
                         <p className='best'>View case study</p>
-                        <p>Skip</p>
+                        <p className='skip'>SKIP</p>
                     </div>
                 </div>
             </div>

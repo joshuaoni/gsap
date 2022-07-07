@@ -13,12 +13,12 @@ const Three = () => {
                 </div>
                 <div>
                     <div className='mid'>
-                        <h1>ABC 345</h1>
+                        <h1 className='abc'>ABC 345</h1>
                         <p className='best'>We are the best web development company in the world</p>
                     </div>
                     <div className='flex foot'>
                         <p className='best'>Coming Soon</p>
-                        <p>Skip</p>
+                        <p className='skip'>SKIP</p>
                     </div>
                 </div>
             </div>

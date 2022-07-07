@@ -548,3 +548,29 @@ h4{
 .nasa {
   width: 15rem;
 }
+
+.skip {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.float {
+  background: #043fd4e3;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.chat {
+  height: 30px;
+  width: 30px;
+}

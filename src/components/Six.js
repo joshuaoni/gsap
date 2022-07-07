@@ -10,12 +10,12 @@ const Six = () => {
                 </div>
                 <div>
                     <div className='mid'>
-                        <h1>ABC 678</h1>
+                        <h1 className='abc'>ABC 678</h1>
                         <p className='best'>Best since 2017<br/>We offer wide range of web development and mobile development</p>
                     </div>
                     <div className='flex foot'>
                         <p className='best'>View case study</p>
-                        <p>Skip</p>
+                        <p className='skip'>SKIP</p>
                     </div>
                 </div>
             </div>

@@ -19,6 +19,7 @@ import G from './components/G';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import img from './assets/image.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -64,10 +65,10 @@ useEffect(()=>{
       opacity:1},0)
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
 
   tl.current = gsap.timeline({scrollTrigger: {
@@ -83,10 +84,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.img3'), {y:700}, {y: 230},0)
   .fromTo(q('.img4'),  {y:-700},{y: -100},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
@@ -104,10 +105,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.img5'), {y:-300},{y: -200},0)
   .fromTo(q('.img6'),  {y:300}, {y: 200},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
@@ -125,10 +126,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.img7'), {x:-300, y:0},{x: 0, y:0},0)
   .fromTo(q('.img10'),  {y:-200}, {y: 50},0)
   .fromTo(q('.img9'), {y:-200, x:-20},{y: -68,x:-20},0)
@@ -149,10 +150,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.img12'), {y: 0},{y:-50},0)
   .fromTo(q('.img13'),  {y: 50}, {y: 0},0)
   .fromTo(q('.img14'), {y: 0}, {y: 50},0)
@@ -173,10 +174,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.tab'), {y: 500},{y:-50},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
 
@@ -193,10 +194,10 @@ useEffect(()=>{
     opacity:1})
   .fromTo(q('.best'), {
     duration: 0.1,
-    y:-30, 
+   opacity: 0.6, 
     ease: 'bounce',
-    force3D: true}, {y:0, },0)
-  .fromTo(q('h1'), {y:-5,ease:'power2', duration: 0.1},{y:0},0)
+    force3D: true}, {opacity:1, },0)
+  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.img19'), {y: 300},{y:300},0)
   .fromTo(q('.img20'),  {y: 300}, {y: 250},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
@@ -212,6 +213,9 @@ useEffect(()=>{
        <Five/>
        <Six/>
        <Seven/>
+       <div className='float'>
+        <img className='chat' alt='' src={img}/>
+       </div>
        <div style={{height:'100vh'}}></div>
       </div>
 

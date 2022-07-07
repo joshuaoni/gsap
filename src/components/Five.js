@@ -15,12 +15,12 @@ const Five = () => {
                 </div>
                 <div>
                     <div className='mid'>
-                        <h1>ABC 567</h1>
+                        <h1 className='abc'>ABC 567</h1>
                         <p className='best'>We are the best AR development company in the world</p>
                     </div>
                     <div className='flex foot'>
                         <p className='best'>View Case Study</p>
-                        <p>Skip</p>
+                        <p className='skip'>SKIP</p>
                     </div>
                 </div>
             </div>
