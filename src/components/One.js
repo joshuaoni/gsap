@@ -12,7 +12,7 @@ const One = () => {
                     <div className='circle'></div>
                 </div>
                 <div>
-                    <div>
+                    <div style={{marginBottom:'1rem'}}>
                         <img className='logo' alt='' src={logo} />
                     </div>
                     <div className='mid'>
