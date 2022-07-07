@@ -1,5 +1,5 @@
 import React from 'react';
-const E = () => {
+const Eight = () => {
     return (
         <div style={{height:'100vh'}}>
 
@@ -7,4 +7,4 @@ const E = () => {
     );
 }
  
-export default E;
+export default Eight;

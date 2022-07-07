@@ -9,7 +9,20 @@ import Four from './components/Four';
 import Five from './components/Five';
 import Six from './components/Six';
 import Seven from './components/Seven';
-import E from './components/Eight';
+import Eight from './components/Eight';
+
+import A from './components/A'
+import B from './components/B'
+import C from './components/C'
+import D from './components/D'
+import E from './components/E'
+import F from './components/F'
+import G from './components/G'
+
+
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,11 +32,11 @@ function App() {
   gsap.defaults({ease:'none', duration:0.5})
   const tl = useRef();
 
-var lastScrollTop = 0;
+  var lastScrollTop=0
 
 window.addEventListener("scroll", function(){ 
    var st = window.pageYOffset || document.documentElement.scrollTop;
-   if (st < lastScrollTop && window.screenY + document.querySelector('.App').getBoundingClientRect().top > -662) {
+   if (st < lastScrollTop && window.screenY + document.querySelector('.App').getBoundingClientRect().top > -662 && window.matchMedia('(min-width:958.1px').matches) {
     window.location.reload()
    } 
    lastScrollTop = st <= 0 ? 0 : st; 
@@ -191,15 +204,34 @@ window.onbeforeunload=function(){
 
   return (
     <div ref={appRef} className="App">
-      <One/>
-      <Two/>
-      <Three/>
-      <Four/>
-      <Five/>
-      <Six/>
-      <Seven/>
-      <E/>
+      <div style={{width:'100%',height:'100%'}} className='desktop'>
+       <One/>
+       <Two/>
+       <Three/>
+       <Four/>
+       <Five/>
+       <Six/>
+       <Seven/>
+       <Eight/>
+      </div>
+    <div className='slide'>
+      <OwlCarousel
+      className='owl-theme'
+      items='1'
+      autoplay={false}
+      mouseDrag
+      touchDrag>
+        <A/>
+        <B/>
+        <C/>
+        <D/>
+        <E/>
+        <F/>
+        <G/>
+      </OwlCarousel>
     </div>
+
+     </div>
   );
 }
 
