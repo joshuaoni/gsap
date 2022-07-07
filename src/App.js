@@ -68,7 +68,7 @@ useEffect(()=>{
    opacity: 0.6, 
     ease: 'bounce',
     force3D: true}, {opacity:1, },0)
-  .fromTo(q('.abc'), {y:-30,ease:'power2', duration: 0.1},{y:0},0)
+  .fromTo(q('.abc'), {y:-15,ease:'power2', duration: 0.1},{y:0},0)
   .fromTo(q('.abso'), {opacity:1,y:-10, ease:'power2',duration:0.1},{y:0},0)
 
   tl.current = gsap.timeline({scrollTrigger: {
