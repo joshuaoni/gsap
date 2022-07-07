@@ -14,11 +14,11 @@ const G = () => {
             <div style={{width:'70%'}}>
                 <img style={{width:'17rem', height:'5rem'}} alt='' src={l} />
             </div>
-            <h1 style={{marginTop:'0'}}>XYZ 123</h1>
+            <h1 style={{marginBottom:'0'}}>XYZ 123</h1>
                 <p>This is sample text for XYZ 123</p>
                 <div style={{display:'flex',alignItems:'center',paddingBottom:'7rem'}}>
                     <h4>CASE STUDY -</h4>
-                    <button style={{color:'green'}}>Coming Soon</button>
+                    <button style={{background:'white',color:'green'}}>Coming Soon</button>
                 </div>
             </div>
         </div>
