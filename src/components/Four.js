@@ -10,8 +10,7 @@ const Four = () => {
         <div className='flex four'>
             <div className='left'>
                 <div className='svg'>
-
-            <div className='circle'></div>
+                    <div className='circle'></div>
                 </div>
                 <div>
                     <div className='mid'>

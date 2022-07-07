@@ -9,8 +9,7 @@ const Three = () => {
         <div className='flex three'>
             <div className='left'>
                 <div className='svg'>
-            <div className='circle'></div>
-
+                    <div className='circle'></div>
                 </div>
                 <div>
                     <div className='mid'>
@@ -25,7 +24,6 @@ const Three = () => {
             </div>
             <div className='abso'>
             <span >Powered By Advance</span><br/>
-                
             <img style={{marginTop:'0.5rem'}} className='nasa' alt='' src={nasa}/>
                 <p>algorithms</p>
             </div>

@@ -1,16 +1,15 @@
 import React from 'react';
 import img1 from '../assets/11.png';
 import img2 from '../assets/12.png';
-import logo from '../assets/world-communication-awards-for-best-digital-experience.png'
+import logo from '../assets/world-communication-awards-for-best-digital-experience.png';
 
 const One = () => {
  
-    
     return (
         <div  className='flex one'>
             <div className='left'>
                 <div className='svg'>
-            <div className='circle'></div>
+                    <div className='circle'></div>
                 </div>
                 <div>
                     <div>

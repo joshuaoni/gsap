@@ -8,8 +8,7 @@ const Seven = () => {
         <div className='flex seven'>
             <div className='left'>
                 <div className='svg'>
-
-            <div className='circl circle'></div>
+                    <div className='circl circle'></div>
                 </div>
                 <div>
                 <div>

@@ -6,8 +6,7 @@ const Six = () => {
         <div className='flex six'>
             <div className='left'>
                 <div className='svg'>
-
-            <div className='circle'></div>
+                    <div className='circle'></div>
                 </div>
                 <div>
                     <div className='mid'>

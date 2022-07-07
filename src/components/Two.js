@@ -1,16 +1,14 @@
 import React from 'react';
-import img3 from '../assets/21.png'
-import img4 from '../assets/22.png'
+import img3 from '../assets/21.png';
+import img4 from '../assets/22.png';
 
 const Two = () => {
- 
     
     return (
         <div className='flex two'>
             <div className='left'>
                 <div className='svg'>
-
-            <div className='circle'></div>
+                    <div className='circle'></div>
                 </div>
                 <div>
                     <div className='mid'>
